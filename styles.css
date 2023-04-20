@@ -1,0 +1,59 @@
+/* ******************** tag selector ************************ */
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+/* ******************** class selector ************************ */
+.main{
+    text-align: center;
+    margin-top: 22%;
+    margin-left: 37.5%;
+    /* border-style: solid;
+    border-color: blanchedalmond; */
+    width:25%;
+    height:200px;
+    /* position: absolute; */
+}
+.container{
+    background-color: white;
+    /* position: absolute; */
+    /* margin-top: 25% ; */
+    /* margin-bottom: 10px; */
+    height: 130px;
+    width: 20%;
+    font-size:x-large;
+}
+/* ******************** id selector ************************ */
+
+#weight{
+    /* position: absolute; */
+    /* margin-top: 25% ; */
+    /* margin-bottom: 10px; */
+    height: 40px;
+    width: 22%;
+    font-size:x-large;
+    border-radius: 5px;
+}
+
+#height{
+    /* position: absolute; */
+    /* margin-top: 25% ; */
+    /* margin-bottom: 10px; */
+    margin-left: 40px;
+    height: 40px;
+    width: 22%;
+    font-size:x-large;
+    border-radius: 5px;
+}
+
+#btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 80px;
+    font-size:x-large;
+}
+
+#btn:hover{
+    background-color:blue;
+    transition: 0.3s;
+}
